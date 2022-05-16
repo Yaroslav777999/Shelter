@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shelter</title>
+  <link rel="stylesheet" href="../pets/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="header-pets">
+      <nav class="nav-pets">
+        <div class="logo">
+          <a class="logo_link" href="../index.html">
+            <h1 class="logo_head-pets">
+              Cozy House
+            </h1>
+          </a>
+          <div class="logo_text-pets">Shelter for pets in Boston</div>
+        </div>
+        <ul class="menu-pets">
+          <li class=" line-pets">About the shelter</li>
+          <li><a class="line-pets line_about-pets" href="index.html">Our pets</a> </li>
+          <li><a class="line-pets" href="#how">Help the shelter</a> </li>
+          <li><a class="line-pets" href="#contact">Contacts</a> </li>
+        </ul>
+      </nav>
+        </div>
+
+    <section class="our_freinds" id="our_freinds">
+           <div class="our_freinds_wrp">
+        <p class="our_freinds_head">Our friends who</p>
+        <p class="our_freinds_head">are looking for a house</p>
+      </div>
+      <div class="freinds_wrp-pets">
+        <div class="freinds_item">
+          <img src="../assets/images/pets-katrine.png" alt="pet">
+          <p class="freinds_name">Katrine</p>
+          <button class="freinds_btn">Learn more</button>
+        </div>
+        <div class="freinds_item">
+          <img src="../assets/images/pets-jennifer.png" alt="pet">
+          <p class="freinds_name">Jennifer</p>
+          <button class="freinds_btn">Learn more</button>
+        </div>
+        <div class="freinds_item">
+          <img src="../assets/images/pets-woody.png" alt="pet">
+          <p class="freinds_name">Woody</p>
+          <button class="freinds_btn">Learn more</button>
+        </div>
+        <div class="freinds_item">
+          <img src="../assets/images/pets-sophia.png" alt="pet">
+          <p class="freinds_name">Sophia</p>
+          <button class="freinds_btn">Learn more</button>
+        </div>
+        <div class="freinds_item">
+          <img src="../assets/images/pets-timmy.png" alt="pet">
+          <p class="freinds_name">Timmy</p>
+          <button class="freinds_btn">Learn more</button>
+        </div>
+        <div class="freinds_item">
+          <img src="../assets/images/pets-charly.png" alt="pet">
+          <p class="freinds_name">Charly</p>
+          <button class="freinds_btn">Learn more</button>
+        </div>
+        <div class="freinds_item">
+          <img src="../assets/images/pets-scarlet.png" alt="pet">
+          <p class="freinds_name">Scarlet</p>
+          <button class="freinds_btn">Learn more</button>
+        </div>
+        <div class="freinds_item">
+          <img src="../assets/images/pets-freddie.png" alt="pet">
+          <p class="freinds_name">Freddie</p>
+          <button class="freinds_btn">Learn more</button>
+        </div>
+      </div>
+      <ul class="pagination">
+        <li class="pagination_item" disabled="disabled"><img src="img/button_paginator_inactive.png" alt="paginator"></li>
+        <li class="pagination_item" disabled="disabled"><img src="img/button_paginator_inactive_2.png" alt="paginator"></li>
+        <li class="pagination_item" disabled="disabled"><img src="img/button_paginator_active.png" alt="paginator"></li>
+        <li class="pagination_item"disabled="disabled"><img src="img/button_paginator.png" alt="paginator"></li>
+        <li class="pagination_item" disabled="disabled"><img src="img/button_paginator1.png" alt="paginator"></li>
+    </ul>
+        </section>
+    
+        <footer class="footer" id="contact">
+          <div class="footer_wrp">
+            <div class="footer_left">
+            <h1  class="footer_left_head">
+              For questions and suggestions
+            </h1>
+            <div class="cont_wrp">
+              <img src="../assets/icon/mail.svg" alt="pic">
+              <a class="cont_link" href="mailto:email@shelter.com"><p class="mail">email@shelter.com</p></a>
+            </div>
+            <div class="cont_wrp">
+              <img src="../assets/icon/icon-phone.svg" alt="pic">
+              <a class="cont_link" href="tel:+13 674 567 75 54"><p class="mail">+13 674 567 75 54</p></a>
+            </div>
+            </div>
+            <div class="footer_left">
+              <h1  class="footer_left_head">
+                We are waiting for your visit
+              </h1>
+              <div class="cont_wrp">
+                <img src="../assets/icon/pin.png" alt="pic">
+                <a class="cont_link" href="https://www.google.ru/maps"><p class="mail adress cont_link">Central Street, Boston (entrance from the store)</p></a>
+              </div>
+              <div class="cont_wrp">
+                <img src="../assets/icon/pin.png" alt="pic">
+               <a class="cont_link" href="https://www.google.ru/maps"><p class="mail">18 South Park, London</p></a> 
+              </div>
+            </div>
+          </div>
+      
+      <img class="footer_puppy" src="../assets/images/footer-puppy.png" alt="puppy">
+      
+        </footer>
+  </div>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+
+</html>
